@@ -3,7 +3,7 @@ import * as actionType from "../constants/cartConstant";
 
 // Adding item to Cart
 export const addToCart = (id, quantity) => async (dispatch, getState) => {
-  const URL = "http://localhost:8001";
+  const URL = "https://flipkartclonee-backend.onrender.com";
 
   try {
     const { data } = await axios.get(`${URL}/product/${id}`);
