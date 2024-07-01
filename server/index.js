@@ -8,7 +8,7 @@ import DefaultData from "./default.js";
 import router from "./routes/route.js";
 const app = express();
 
-dotenv.config();
+dotenv.config({ path: ".env.local" });
 
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
