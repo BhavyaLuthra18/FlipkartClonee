@@ -1,7 +1,7 @@
 import axios from "axios";
 import * as actionTypes from "../constants/productConstant";
 
-const URL = "http://localhost:8001";
+const URL = "https://flipkartclonee-backend.onrender.com";
 
 // normal function along with middleware () =>
 // middleware gives access to dispatch
