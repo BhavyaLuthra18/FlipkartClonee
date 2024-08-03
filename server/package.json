@@ -7,7 +7,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
+<<<<<<< HEAD
     },
+=======
+  },
+>>>>>>> 6e25ec58214ac4837026e1a2b3acf97f1c279c16
   "author": "Bhavya Luthra",
   "license": "ISC",
   "dependencies": {
