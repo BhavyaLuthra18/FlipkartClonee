@@ -4,8 +4,8 @@ import * as actionType from "../constants/cartConstant";
 // Adding item to Cart
 export const addToCart = (id, quantity) => async (dispatch, getState) => {
 
-  const URL = "https://flipkart-clonee-backend.vercel.app/";
-  const URL = "https://flipkart-clonee-backend.vercel.app/"
+  const URL = "https://flipkart-clonee-backend.vercel.app";
+  const URL = "https://flipkart-clonee-backend.vercel.app"
 
 
   try {
