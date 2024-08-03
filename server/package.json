@@ -6,13 +6,9 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-<<<<<<< HEAD
-    "start": "nodemon index.js"
 
-=======
-    "start":"node index.js"
->>>>>>> d54acddbeccc3ae75c0cdaf19a08c3d2d7e89da4
-  },
+    "start": "nodemon index.js",
+    "start":"node index.js"  },
   "author": "Bhavya Luthra",
   "license": "ISC",
   "dependencies": {
