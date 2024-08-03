@@ -10,13 +10,6 @@ const app = express();
 
 dotenv.config({ path: ".env.local" });
 
-app.use(cors({
-  origin: [""],
-  methods: ["POST", "GET"],
-  credentials: true
-}));
-
-
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
