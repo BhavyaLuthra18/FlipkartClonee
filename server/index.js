@@ -12,8 +12,9 @@ dotenv.config({ path: ".env.local" });
 
 app.use(
   cors({
-    origin: "https://flipkart-clonee-9zla.vercel.app/",
-    methods: ["GET", "POST"], // Specify allowed methods
+    origin:
+      "flipkart-clonee-9zla-git-master-bhavyas-projects-e031f186.vercel.app",
+    methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true, // Enable cookies if needed
   })
 );
