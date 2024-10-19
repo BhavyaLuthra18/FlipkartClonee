@@ -10,6 +10,14 @@ const app = express();
 
 dotenv.config({ path: ".env.local" });
 
+app.use(
+  cors({
+    origin: "https://flipkart-clonee-9zla.vercel.app/",
+    methods: ["GET", "POST"], // Specify allowed methods
+    credentials: true, // Enable cookies if needed
+  })
+);
+
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
