@@ -1,7 +1,7 @@
 import axios from "axios";
 import * as actionTypes from "../constants/productConstant";
 
-const URL = "http://localhost:8001";
+const URL = "https://flipkart-clonee-sgpk.vercel.app";
 
 // normal function along with middleware () =>
 // middleware gives access to dispatch
